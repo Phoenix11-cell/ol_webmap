@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./libs/v6.0.0-dist/ol.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-1">
+        <div class="column-navigation">
+          <a title="Home" id="Home" class="activate">
+            <a title="Home" id="Home" class="active"
+              ><i class="fas fa-home" id="Home"></i
+            ></a>
+            <a title="Perth" id="Perth"
+              ><i class="far fa-circle" id="Perth"></i
+            ></a>
+            <a title="Adelaide" id="Adelaide"
+              ><i class="far fa-circle" id="Adelaide"></i
+            ></a>
+            <a title="Melbourne" id="Melbourne"
+              ><i class="far fa-circle" id="Melbourne"></i
+            ></a>
+            <a title="Brisbane" id="Brisbane"
+              ><i class="far fa-circle" id="Brisbane"></i
+            ></a>
+            <a title="Darwin" id="Darwin"
+              ><i class="far fa-circle" id="Darwin"></i
+            ></a>
+            <a title="Hobart" id="Hobart"
+              ><i class="far fa-circle" id="Hobart"></i
+            ></a>
+            <a title="Sydney" id="Sydney"
+              ><i class="far fa-circle" id="Sydney"></i
+            ></a>
+          </a>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="column-map" id="openlayers-map"></div>
+      </div>
+      <div class="grid-3">
+        <div class="column-menu" id="menu-information">
+          <p id="cityname">欢迎来到澳大利亚旅行地图</p>
+          <img
+            id="cityimage"
+            src="./data/City_images/Australian_Flag.jpg"
+            alt="Australia_Flag"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="popover-information">
+      <p id="popover-text"></p>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/a28f8d7f99.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./libs/v6.0.0-dist/ol.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
